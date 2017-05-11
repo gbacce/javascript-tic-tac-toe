@@ -1,0 +1,42 @@
+body {
+	background-color: tan;
+}
+
+#board {
+	max-width: 640px;
+	min-width: 320px;
+	float: none;
+	margin: auto;
+
+}
+
+.square {
+	background-color: burlywood;
+	border: 2px solid #000;
+	outline: none;  /* Gets rid of the blue effect when you press a button*/
+	width: 30%;
+	padding: 60px 0;
+	font-size: 40px;
+}
+
+.selectedX {
+	color: maroon;
+}
+
+.selectedO {
+	color: midnightblue;
+}
+
+.square:hover {  /* If you you can do something in CSS, do it in CSS over Javascript. More efficient, better performance. */
+	background-color: peru;
+}
+
+.winning-square {
+	background-color: olivedrab !important;
+	color: darkgreen !important;
+}
+
+#user-input-wrapper {
+	margin-top: 35px;
+	font-weight: bold;
+}
